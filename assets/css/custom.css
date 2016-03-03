@@ -1,0 +1,166 @@
+@import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Open Sans', sans-serif;
+}
+article, aside, details, figcaption, footer, figure, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  -webkit-text-size-adjust: none;
+}
+
+/* FIM RESET CSS*/
+
+
+/* MENU NAVEGAÇÃO */
+
+#nav-bar {
+  background-color: #acd24d;
+  padding-top: 10px;
+  color: #2f2f2f;
+  box-sizing: border-box;
+}
+.navbar-header a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+.header a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+/* FIM MENU NAVEGAÇÃO */
+
+
+/* section produto */
+
+.produtos h1 {
+  margin-top: 50px;
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.produtos p {
+  margin: 0;
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 40%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+#section_produto {
+  margin-top: 50px;
+  padding-top: 20px;
+  border: 1px solid #d8d8d8;
+  background-color: #f6f6f5;
+  border-radius: 10px;
+}
+#section_produto p, h2, h3 {
+  padding-top: 20px;
+  color: #a2a0a0;
+}
+#section_produto a {
+  color: #ffffff;
+  margin: 10px;
+  font-style: normal;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-color: #2f2f2f;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.center-block {
+  width: 13%;
+}
+.jumbotron a, p, h3 {
+  color: #fff;
+  /*margin-bottom: 20px;*/
+  text-decoration: none;
+  list-style: none;
+  font-family: 'verdana', sans-serif;
+}
+
+/* inicio FOOTER  */
+
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: #acd24d;
+  font-size: 16px;
+  color: #2f2f2f;
+  padding: 2%;
+  color: #545353;
+}
+#conteiner_footer a {
+  color: #545353;
+  list-style: none;
+  text-decoration: none;
+}
+#conteiner_footer p {
+  font-family: 'verdana', sans-serif;
+  text-align: center;
+}
+
+.widgetheading {
+  font-family: 'verdana', sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.widget p {
+  font-family: 'verdana', sans-serif;
+  margin-bottom: 10px;
+  color: #545353;
+}
+.form-group {
+  margin-top: 10px;
+}
+.social-network img{
+  width: 18%;
+  	position:relative;
+    float: left;
+}
+
+/* SUB-FOOTER */
+#sub-footer {
+  padding-top: 30px;
+  background-color: #acd24d;
+  text-align: center;
+  color: #545353;
+}
+
+
+/* FIM FOOTER*/
